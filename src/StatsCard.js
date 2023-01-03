@@ -9,7 +9,9 @@ const StatsCard = ({sub,view,video}) => {
         <span className='info'>Videos Uploaded <br/> <span className='emphasis'>{video}</span></span>
       </div>
 
-      <div className='side left-side'></div>
+      <div className='side left-side'>
+        <span className='info'>Videos Views <br/> <span className='emphasis'>{view}</span></span>
+      </div>
     </div>
   )
 }

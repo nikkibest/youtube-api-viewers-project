@@ -30,11 +30,11 @@ body {
     inset 0 0 20px rgba(255,255,255,0.2);
 }
 .left-side{
-    right:192px;
+    right:288px;
 }
 .right-side{
-    left:192px;
-    top:127px;
+    left:288px;
+    top:104px;
 }
 .side{
     display:flex;
@@ -55,7 +55,7 @@ body {
     font-size: 2rem;
 }
 .bar-icon{
-    left:50%;
+    left:60%;
 }
 .icon{
     position:absolute;
@@ -64,7 +64,7 @@ body {
     top: 75%;
 }
 .folder-icon{
-    left:5%;
+    left:12%;
 }
 .emphasis{
     font-family: 'Montserrat', sans-serif;
@@ -95,7 +95,7 @@ body {
     width:140px;
     z-index: 400;
     position: absolute;
-    top:30%;
+    top:35%;
     left:15%;
     border: 2px solid #004eb4;
     border-radius: 5px;
